@@ -3,6 +3,7 @@
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Authentic Jobs](https://authenticjobs.com)
 
 [![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-authenticjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-authenticjobs)
+[![Test coverage](https://img.shields.io/coveralls/alebelcor/gigs-adapter-authenticjobs.svg)](https://coveralls.io/github/alebelcor/gigs-adapter-authenticjobs)
 
 ## Install
 
