@@ -2,8 +2,8 @@
 
 const got = require('got');
 
-const fetch = require('./lib/fetch');
 const getGotOptions = require('./lib/get-got-options');
+const fetch = require('./lib/fetch');
 
 const ADAPTER_ENDPOINT = 'https://authenticjobs.com/api/';
 
