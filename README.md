@@ -2,6 +2,8 @@
 
 > A [gigs](https://github.com/alebelcor/gigs) adapter for [Authentic Jobs](https://authenticjobs.com)
 
+[![Build Status](https://img.shields.io/travis/alebelcor/gigs-adapter-authenticjobs/master.svg)](https://travis-ci.org/alebelcor/gigs-adapter-authenticjobs)
+
 ## Install
 
 Ensure you have [Node.js](https://nodejs.org) version 4+ installed. Then run the following:
