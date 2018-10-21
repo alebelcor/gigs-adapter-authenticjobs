@@ -42,7 +42,7 @@
   },
   "devDependencies": {
     "ava": "^0.25.0",
-    "coveralls": "^2.11.12",
+    "coveralls": "^3.0.2",
     "is-plain-obj": "^1.1.0",
     "nyc": "^8.1.0",
     "proxyquire": "^2.1.0"
