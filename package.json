@@ -37,7 +37,7 @@
   "dependencies": {
     "gigs": "^1.0.0",
     "got": "^8.3.2",
-    "lodash.flattendeep": "^4.4.0",
+    "lodash": "^4.17.11",
     "moment": "^2.22.2"
   },
   "devDependencies": {
