@@ -5,9 +5,9 @@ import proxyquire from 'proxyquire';
 
 test('it should return a promise', t => {
   const fetch = proxyquire('../lib/fetch', {
-    'got': {
+    got: {
       get: () => {
-        return new Promise(function (resolve, reject) {
+        return new Promise(resolve => {
           setTimeout(() => {
             resolve({
               body: {listings: {listing: []}}
@@ -23,19 +23,18 @@ test('it should return a promise', t => {
 
 test('it should accumulate/flatten the results', async t => {
   let count = 1;
-  let total = 2;
   const fetch = proxyquire('../lib/fetch', {
-    'got': {
+    got: {
       get: () => {
         const body = {listings: {listing: [{title: 'foo'}, {title: 'bar'}]}};
 
-        return new Promise(function (resolve, reject) {
+        return new Promise(resolve => {
           setTimeout(() => {
             body.listings.page = count.toString();
             body.listings.pages = 2;
 
             resolve({
-              body: body
+              body
             });
 
             count += 1;

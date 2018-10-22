@@ -1,6 +1,5 @@
 'use strict';
 
-const got = require('got');
 const defaultsDeep = require('lodash/defaultsDeep');
 
 const getGotOptions = require('./lib/get-got-options');
@@ -16,4 +15,4 @@ module.exports = function gigsAdapterAuthenticJobs(options) {
 
   return fetch(options)
     .catch(console.error);
-}
+};

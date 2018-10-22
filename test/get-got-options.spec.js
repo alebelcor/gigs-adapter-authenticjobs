@@ -6,7 +6,7 @@ import getGotOptions from '../lib/get-got-options';
 
 const token = '0123456789';
 
-test.beforeEach(t => {
+test.beforeEach(() => {
   process.env.AUTHENTICJOBS_API_KEY = token;
 });
 
