@@ -1,18 +1,18 @@
 'use strict';
 
 import test from 'ava';
-import isFullTime from '../lib/is-full-time';
+import getIsFullTime from '../lib/get-is-full-time';
 
 test('it should return true', t => {
-  t.true(isFullTime({type: {name: 'Full-time'}}));
+  t.true(getIsFullTime({type: {name: 'Full-time'}}));
 });
 
 test('it should return false', t => {
-  t.false(isFullTime({type: {name: 'foo'}}));
-  t.false(isFullTime({type: {name: 'Part-time'}}));
+  t.false(getIsFullTime({type: {name: 'foo'}}));
+  t.false(getIsFullTime({type: {name: 'Part-time'}}));
 });
 
 test('it should return null', t => {
-  t.deepEqual(null, isFullTime({type: {}}));
-  t.deepEqual(null, isFullTime({}));
+  t.deepEqual(null, getIsFullTime({type: {}}));
+  t.deepEqual(null, getIsFullTime({}));
 });
