@@ -2,6 +2,7 @@
 
 import test from 'ava';
 import isPlainObj from 'is-plain-obj';
+
 import getGotOptions from '../lib/get-got-options';
 
 const token = '0123456789';

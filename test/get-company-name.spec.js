@@ -1,6 +1,7 @@
 'use strict';
 
 import test from 'ava';
+
 import getCompanyName from '../lib/get-company-name';
 
 test('it should return the company name', t => {
